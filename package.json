@@ -1,6 +1,6 @@
 {
   "name": "nestjs-ccxt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CCXT module for Nest framework (node.js) 🚀",
   "author": "Andrea Fassina",
   "license": "MIT",
