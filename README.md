@@ -1,9 +1,6 @@
-<a href="https://github.com/ccxt/ccxt">
-    <img src="https://avatars.githubusercontent.com/u/31901609" alt="Ccxt logo" title="Ccxt" align="right" height="60" />
-</a>
-<a href="https://github.com/nestjs/nest">
-    <img src="https://avatars.githubusercontent.com/u/28507035" alt="NestJS Logo" title="NestJS" align="right" height="60" />
-</a>
+<p align="center" dir="auto">
+    <img align="center" src="https://user-images.githubusercontent.com/1219087/149666571-e312eef2-3215-480f-9c7c-1c1278d17a71.PNG" alt="nestjs-ccxt logo" title="nestjs-ccxt" height="80" />
+</p>
 
 # nestjs-ccxt
 
