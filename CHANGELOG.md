@@ -1,3 +1,10 @@
+## [0.0.4](https://github.com/fasenderos/nestjs-ccxt/compare/0.0.3...0.0.4) (2022-01-16)
+
+
+### Bug Fixes
+
+* set defaultExchanges options as undefined by default ([1de59bc](https://github.com/fasenderos/nestjs-ccxt/commit/1de59bcd89d940a20e77e8e3ea80d42d619fb8bc))
+
 ## [0.0.3](https://github.com/fasenderos/nestjs-ccxt/compare/0.0.2...0.0.3) (2022-01-16)
 
 
