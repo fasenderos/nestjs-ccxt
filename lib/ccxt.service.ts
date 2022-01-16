@@ -54,6 +54,9 @@ export class CcxtService implements OnModuleInit {
     // Set Sandbox Mode
     if (this.options?.sandboxMode === true)
       this._clients[exchangeId].setSandboxMode(true);
+    // Set verbose log
+    if (this.options?.verbose === true)
+      this._clients[exchangeId].verbose = true;
     // Load exchange markets
     if (loadMarkets === true) await this.loadExchangeMarkets(exchangeId);
   }
@@ -99,11 +102,12 @@ export class CcxtService implements OnModuleInit {
       'baseCurrencies',
       'quoteCurrencies',
       'symbols',
+      'verbose',
     ].forEach(prop => {
       userClient[prop] = this._clients[exchangeId][prop];
     });
-    // Set verbose log
-    if (this.options?.verbose === true) userClient.verbose = true;
+    // Set Sandbox Mode
+    if (this.options?.sandboxMode === true) userClient.setSandboxMode(true);
     return userClient;
   }
 
