@@ -1,16 +1,15 @@
 # source
+.circleci
+coverage
 lib
 tests
+.codecov.yml
+.eslintignore
+.eslintrc.js
+.prettierrc
+.release-it.json
 index.ts
 package-lock.json
+renovate.json
 tslint.json
 tsconfig.json
-.prettierrc
-
-# github
-.github
-CONTRIBUTING.md
-renovate.json
-
-# ci
-.circleci
