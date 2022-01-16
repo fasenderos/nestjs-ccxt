@@ -74,6 +74,7 @@
       "**/*.(t|j)s"
     ],
     "coverageDirectory": "../coverage",
+    "collectCoverage": true,
     "testEnvironment": "node",
     "verbose": true,
     "coveragePathIgnorePatterns": [
