@@ -10,7 +10,7 @@ export type CcxtModuleOptions = {
 
   /**
    * Default exchanges to be loaded on start up
-   * Default: binance
+   * Default: undefined
    */
   defaultExchanges?: ccxt.ExchangeId | ccxt.ExchangeId[];
 

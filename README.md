@@ -1,5 +1,11 @@
-<p align="center" dir="auto">
+<p align="center">
     <img align="center" src="https://user-images.githubusercontent.com/1219087/149666571-e312eef2-3215-480f-9c7c-1c1278d17a71.PNG" alt="nestjs-ccxt logo" title="nestjs-ccxt" height="80" />
+</p>
+<p align="center">
+    <a href="https://www.npmjs.com/package/nestjs-ccxt" target="_blank"><img alt="npm" src="https://img.shields.io/npm/v/nestjs-ccxt?color=blue" alt="NPM Version"></a>
+    <a href="https://www.npmjs.com/package/nestjs-ccxt" target="_blank"><img alt="NPM" src="https://img.shields.io/npm/l/nestjs-ccxt" alt="Package License"></a>
+    <a href="https://circleci.com/gh/fasenderos/nestjs-ccxt" target="_blank">
+    <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/fasenderos/nestjs-ccxt/master" alt="CircleCI"></a>
 </p>
 
 # nestjs-ccxt
@@ -55,7 +61,7 @@ interface Params {
 
   /**
    * Default exchanges to be loaded on start up
-   * Default: binance
+   * Default: undefined
    */
   defaultExchanges?: ccxt.ExchangeId | ccxt.ExchangeId[];
 
