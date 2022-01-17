@@ -1,9 +1,10 @@
 <p align="center">
-    <img align="center" src="https://user-images.githubusercontent.com/1219087/149666571-e312eef2-3215-480f-9c7c-1c1278d17a71.PNG" alt="nestjs-ccxt logo" title="nestjs-ccxt" height="80" />
+    <img align="center" src="https://user-images.githubusercontent.com/1219087/149739821-09d2c8cb-3a4d-4877-adb7-cbc1118a62d3.png" alt="nestjs-ccxt logo" title="nestjs-ccxt" height="80" />
 </p>
 <p align="center">
     <a href="https://www.npmjs.com/package/nestjs-ccxt" target="_blank"><img src="https://img.shields.io/npm/v/nestjs-ccxt?color=blue" alt="NPM Version"></a>
     <a href="https://github.com/fasenderos/nestjs-ccxt/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/npm/l/nestjs-ccxt" alt="Package License"></a>
+    <a href="https://www.npmjs.com/package/nestjs-ccxt" target="_blank"><img src="https://img.shields.io/npm/dm/nestjs-ccxt" alt="NPM Downloads"></a>
     <a href="https://circleci.com/gh/fasenderos/nestjs-ccxt" target="_blank"><img src="https://img.shields.io/circleci/build/github/fasenderos/nestjs-ccxt/master" alt="CircleCI" ></a>
     <a href="https://codecov.io/github/fasenderos/nestjs-ccxt" target="_blank"><img src="https://img.shields.io/codecov/c/github/fasenderos/nestjs-ccxt" alt="Codecov"></a>
 </p>
@@ -101,6 +102,16 @@ const client = await this.ccxtService.getClient('binance', {
   secret: 'YOUR_SECRET',
 });
 ```
+
+## Contributing
+
+I would greatly appreciate any contributions to make this project better. Please make sure to follow the below guidelines before getting your hands dirty.
+
+1. Fork the repository
+2. Create your branch (git checkout -b my-branch)
+3. Commit any changes to your branch
+4. Push your changes to your remote branch
+5. Open a pull request
 
 ## License
 

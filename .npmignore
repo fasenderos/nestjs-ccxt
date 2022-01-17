@@ -4,6 +4,7 @@ coverage
 lib
 tests
 .codecov.yml
+.commitlintrc.json
 .eslintignore
 .eslintrc.js
 .prettierrc
