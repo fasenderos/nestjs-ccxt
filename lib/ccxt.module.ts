@@ -1,11 +1,9 @@
-import { DynamicModule, Module, Provider } from '@nestjs/common';
+import { DynamicModule, Module } from '@nestjs/common';
 import {
   CcxtModuleAsyncOptions,
   CcxtModuleOptions,
-  CcxtOptionsFactory,
 } from './interfaces/ccxt-module-options.interface';
-import { CCXT_MODULE_OPTIONS } from './ccxt.constants';
-import { createCcxtProvider } from './ccxt.providers';
+import { createAsyncProviders, createCcxtProvider } from './ccxt.providers';
 import { CcxtService } from './ccxt.service';
 
 @Module({
@@ -14,9 +12,10 @@ import { CcxtService } from './ccxt.service';
 })
 export class CcxtModule {
   static forRoot(options?: CcxtModuleOptions): DynamicModule {
+    const provider = createCcxtProvider(options);
     return {
       module: CcxtModule,
-      providers: createCcxtProvider(options),
+      providers: [provider],
     };
   }
 
@@ -24,40 +23,7 @@ export class CcxtModule {
     return {
       module: CcxtModule,
       imports: options.imports || [],
-      providers: this.createAsyncProviders(options),
-    };
-  }
-
-  private static createAsyncProviders(
-    options: CcxtModuleAsyncOptions,
-  ): Provider[] {
-    if (options.useExisting || options.useFactory) {
-      return [this.createAsyncOptionsProvider(options)];
-    }
-    return [
-      this.createAsyncOptionsProvider(options),
-      {
-        provide: options.useClass,
-        useClass: options.useClass,
-      },
-    ];
-  }
-
-  private static createAsyncOptionsProvider(
-    options: CcxtModuleAsyncOptions,
-  ): Provider {
-    if (options.useFactory) {
-      return {
-        provide: CCXT_MODULE_OPTIONS,
-        useFactory: options.useFactory,
-        inject: options.inject || [],
-      };
-    }
-    return {
-      provide: CCXT_MODULE_OPTIONS,
-      useFactory: async (optionsFactory: CcxtOptionsFactory) =>
-        await optionsFactory.createCcxtOptions(),
-      inject: [options.useExisting || options.useClass],
+      providers: createAsyncProviders(options),
     };
   }
 }
