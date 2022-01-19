@@ -1,5 +1,6 @@
 # source
 .circleci
+.github
 coverage
 lib
 tests
