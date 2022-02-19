@@ -1,3 +1,5 @@
+## [0.0.10](https://github.com/fasenderos/nestjs-ccxt/compare/0.0.9...0.0.10) (2022-02-19)
+
 ## [0.0.9](https://github.com/fasenderos/nestjs-ccxt/compare/0.0.8...0.0.9) (2022-01-27)
 
 ## [0.0.8](https://github.com/fasenderos/nestjs-ccxt/compare/0.0.7...0.0.8) (2022-01-19)
