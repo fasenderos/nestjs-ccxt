@@ -13,7 +13,7 @@
 
 :star: Star me on GitHub — it motivates me a lot!
 
-[CCXT](https://github.com/ccxt/ccxt) module for [Nest](https://github.com/nestjs/nest) framework with exchange markets cache for better performance. :rocket::rocket:
+[CCXT](https://github.com/ccxt/ccxt) module for [NestJS](https://github.com/nestjs/nest) framework with exchange markets cache for better performance. :rocket::rocket:
 
 ## Installation
 
