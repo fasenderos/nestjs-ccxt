@@ -1,3 +1,9 @@
+## <small>0.0.14 (2022-05-16)</small>
+
+* docs: improve changelog ([91f6446](https://github.com/fasenderos/nestjs-ccxt/commit/91f6446))
+
+
+
 ## <small>0.0.13 (2022-05-15)</small>
 
 * chore(deps): update all dependencies to latest version ([ac41acd](https://github.com/fasenderos/nestjs-ccxt/commit/ac41acd))
