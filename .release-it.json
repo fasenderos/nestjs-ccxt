@@ -5,10 +5,7 @@
   "github": {
     "release": true
   },
-  "plugins": {
-    "@release-it/conventional-changelog": {
-      "preset": "angular",
-      "infile": "CHANGELOG.md"
-    }
+  "hooks": {
+    "after:bump": "conventional-changelog -i CHANGELOG.md -s && git add CHANGELOG.md"
   }
 }

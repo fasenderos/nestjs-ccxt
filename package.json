@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "16.3.0",
-    "@commitlint/config-angular": "16.3.0",
+    "@commitlint/config-conventional": "17.0.0",
     "@golevelup/ts-jest": "^0.3.3",
     "@nestjs/common": "8.4.5",
     "@nestjs/core": "8.4.5",
@@ -42,6 +42,7 @@
     "@typescript-eslint/eslint-plugin": "5.23.0",
     "@typescript-eslint/parser": "5.23.0",
     "ccxt": "1.82.52",
+    "conventional-changelog-cli": "2.2.2",
     "eslint": "8.15.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
