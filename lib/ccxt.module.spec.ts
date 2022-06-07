@@ -14,7 +14,6 @@ describe('CcxtModule', () => {
   describe('forRootAsync', () => {
     test('should work correctly', () => {
       const options: CcxtModuleAsyncOptions = {
-        imports: [],
         useFactory: () => ({}),
         inject: [],
       };
