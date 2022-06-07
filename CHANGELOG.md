@@ -1,3 +1,12 @@
+## <small>0.0.15 (2022-06-07)</small>
+
+* test: comple test on module and provider ([3eeb12b](https://github.com/fasenderos/nestjs-ccxt/commit/3eeb12b))
+* test: forRooAsync without imports ([b90ec10](https://github.com/fasenderos/nestjs-ccxt/commit/b90ec10))
+* deps: update all dependencies ([166abc8](https://github.com/fasenderos/nestjs-ccxt/commit/166abc8))
+* fix: wrong returned type from getClient ([9fd577a](https://github.com/fasenderos/nestjs-ccxt/commit/9fd577a))
+
+
+
 ## <small>0.0.14 (2022-05-16)</small>
 
 * docs: improve changelog ([91f6446](https://github.com/fasenderos/nestjs-ccxt/commit/91f6446))
