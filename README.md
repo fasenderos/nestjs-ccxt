@@ -67,7 +67,7 @@ interface Params {
   defaultExchanges?: ccxt.ExchangeId | ccxt.ExchangeId[];
 
   /**
-   * If `true`, the markets data of the exchanges setted in the `defaultExchange`
+   * If `true`, the markets data of the exchanges setted in the `defaultExchanges`
    * options are loaded on startup
    * Default: true
    */
