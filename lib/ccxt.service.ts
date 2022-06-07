@@ -130,7 +130,7 @@ export class CcxtService implements OnModuleInit {
   public getClient(
     exchangeId: ccxt.ExchangeId,
     options?: Partial<ccxt.Exchange>,
-  ): Promise<ccxt.Exchange> | ccxt.Exchange {
+  ): Promise<ccxt.Exchange> {
     return this.getExchange(exchangeId, options);
   }
 }
