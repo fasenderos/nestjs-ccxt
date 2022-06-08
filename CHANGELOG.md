@@ -1,3 +1,9 @@
+## <small>0.0.16 (2022-06-08)</small>
+
+* test: test ccxt service 80% ([9cef9f1](https://github.com/fasenderos/nestjs-ccxt/commit/9cef9f1))
+
+
+
 ## <small>0.0.15 (2022-06-07)</small>
 
 * test: comple test on module and provider ([3eeb12b](https://github.com/fasenderos/nestjs-ccxt/commit/3eeb12b))
