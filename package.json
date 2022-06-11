@@ -13,7 +13,7 @@
     "nestjs-ccxt"
   ],
   "scripts": {
-    "build": "rimraf -rf dist && tsc -p tsconfig.json",
+    "build": "rimraf -rf dist && tsc -p tsconfig-release.json",
     "format": "prettier --write \"{lib,test}/**/*.ts\"",
     "lint": "eslint \"lib/**/*\" --fix",
     "prepublish:npm": "npm run build",
