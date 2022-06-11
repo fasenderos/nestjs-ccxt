@@ -1,3 +1,11 @@
+## <small>0.0.17 (2022-06-11)</small>
+
+* build: add tsconfig for production build ([70d2720](https://github.com/fasenderos/nestjs-ccxt/commit/70d2720))
+* deps: update all dependencies ([7c1d737](https://github.com/fasenderos/nestjs-ccxt/commit/7c1d737))
+* feat: add CodeQL for scanning code ([5fa676f](https://github.com/fasenderos/nestjs-ccxt/commit/5fa676f))
+
+
+
 ## <small>0.0.16 (2022-06-08)</small>
 
 * test: test ccxt service 80% ([9cef9f1](https://github.com/fasenderos/nestjs-ccxt/commit/9cef9f1))
