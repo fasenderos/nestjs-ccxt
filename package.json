@@ -40,7 +40,7 @@
     "@types/jest": "28.1.1",
     "@types/node": "17.0.42",
     "@typescript-eslint/eslint-plugin": "5.27.1",
-    "@typescript-eslint/parser": "5.27.1",
+    "@typescript-eslint/parser": "5.30.4",
     "ccxt": "1.86.82",
     "conventional-changelog-cli": "2.2.2",
     "eslint": "8.17.0",
