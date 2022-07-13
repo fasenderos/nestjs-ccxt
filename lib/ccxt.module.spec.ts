@@ -1,6 +1,6 @@
 import { CcxtModuleAsyncOptions } from './interfaces';
 import { CcxtModule } from '.';
-import { MulterModule } from '@nestjs/platform-express'
+import { MulterModule } from '@nestjs/platform-express';
 
 describe('CcxtModule', () => {
   describe('forRoot', () => {

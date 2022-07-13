@@ -43,7 +43,10 @@ describe('createAsyncProviders', () => {
   });
 
   test('should create providers with useFactory and injected provider', () => {
-    const result = createAsyncProviders({ useFactory: () => ({}), inject: [CcxtConfigService] });
+    const result = createAsyncProviders({
+      useFactory: () => ({}),
+      inject: [CcxtConfigService],
+    });
     expect(result).toHaveLength(1);
     expect(result[0]).toHaveProperty('provide', CCXT_MODULE_OPTIONS);
     expect(result[0]).toHaveProperty('inject', [CcxtConfigService]);

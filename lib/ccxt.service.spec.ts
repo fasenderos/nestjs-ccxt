@@ -123,9 +123,15 @@ describe('CcxtService onModuleInit', () => {
     await ccxtService.onModuleInit();
     await ccxtService.getClient(exchangeId, options);
     expect(loadExchange).toBeCalledTimes(1);
-    expect(loadExchange).toBeCalledWith(exchangeId, ccxtOptions, loadMarketsOnStartup);
+    expect(loadExchange).toBeCalledWith(
+      exchangeId,
+      ccxtOptions,
+      loadMarketsOnStartup,
+    );
     // @ts-ignore
-    expect(ccxtService._clients[exchangeId].rateLimit).toBe(ccxtOptions.rateLimit);
+    expect(ccxtService._clients[exchangeId].rateLimit).toBe(
+      ccxtOptions.rateLimit,
+    );
     // @ts-ignore
     expect(ccxtService._clients[exchangeId].verbose).toBe(verbose);
   });

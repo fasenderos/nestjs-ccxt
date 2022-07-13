@@ -7,7 +7,7 @@ tests
 .codecov.yml
 .commitlintrc.json
 .eslintignore
-.eslintrc.js
+.eslintrc.json
 .prettierrc
 .release-it.json
 index.ts
