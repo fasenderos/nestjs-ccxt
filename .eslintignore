@@ -1,3 +1,2 @@
-src/**/*.test.ts
-src/**/files/**
-test/**
+lib/**/*.spec.ts
+tests/**
