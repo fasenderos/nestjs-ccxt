@@ -1,3 +1,32 @@
+## <small>0.0.18 (2022-07-13)</small>
+
+* style: format code ([523f69c](https://github.com/fasenderos/nestjs-ccxt/commit/523f69c))
+* chore(deps-dev): bump @commitlint/cli from 17.0.2 to 17.0.3 ([e15d8de](https://github.com/fasenderos/nestjs-ccxt/commit/e15d8de))
+* chore(deps-dev): bump @commitlint/config-conventional ([1d97e7d](https://github.com/fasenderos/nestjs-ccxt/commit/1d97e7d))
+* chore(deps-dev): bump @nestjs/core from 8.4.6 to 8.4.7 ([a556ddd](https://github.com/fasenderos/nestjs-ccxt/commit/a556ddd))
+* chore(deps-dev): bump @nestjs/platform-express from 8.4.6 to 8.4.7 ([6ea4ed2](https://github.com/fasenderos/nestjs-ccxt/commit/6ea4ed2))
+* chore(deps-dev): bump @nestjs/testing from 8.4.6 to 8.4.7 ([1d12a65](https://github.com/fasenderos/nestjs-ccxt/commit/1d12a65))
+* chore(deps-dev): bump @types/node from 17.0.42 to 18.0.3 ([0949a2f](https://github.com/fasenderos/nestjs-ccxt/commit/0949a2f))
+* chore(deps-dev): bump @typescript-eslint/eslint-plugin ([209946c](https://github.com/fasenderos/nestjs-ccxt/commit/209946c))
+* chore(deps-dev): bump @typescript-eslint/parser from 5.27.1 to 5.30.6 ([4712b33](https://github.com/fasenderos/nestjs-ccxt/commit/4712b33))
+* chore(deps-dev): bump ccxt from 1.86.82 to 1.90.66 ([be8a84c](https://github.com/fasenderos/nestjs-ccxt/commit/be8a84c))
+* chore(deps-dev): bump ccxt from 1.90.66 to 1.90.68 ([5a388c2](https://github.com/fasenderos/nestjs-ccxt/commit/5a388c2))
+* chore(deps-dev): bump eslint from 8.17.0 to 8.19.0 ([83671ab](https://github.com/fasenderos/nestjs-ccxt/commit/83671ab))
+* chore(deps-dev): bump jest and @types/jest ([278b009](https://github.com/fasenderos/nestjs-ccxt/commit/278b009))
+* chore(deps-dev): bump jest and @types/jest ([5b2661d](https://github.com/fasenderos/nestjs-ccxt/commit/5b2661d))
+* chore(deps-dev): bump lint-staged from 13.0.1 to 13.0.3 ([cefbb6d](https://github.com/fasenderos/nestjs-ccxt/commit/cefbb6d))
+* chore(deps-dev): bump prettier from 2.6.2 to 2.7.1 ([24fdf24](https://github.com/fasenderos/nestjs-ccxt/commit/24fdf24))
+* chore(deps-dev): bump release-it from 15.0.0 to 15.1.1 ([2a254fb](https://github.com/fasenderos/nestjs-ccxt/commit/2a254fb))
+* chore(deps-dev): bump rxjs from 7.5.5 to 7.5.6 ([0a89f69](https://github.com/fasenderos/nestjs-ccxt/commit/0a89f69))
+* chore(deps-dev): bump ts-jest from 28.0.4 to 28.0.5 ([119b4ba](https://github.com/fasenderos/nestjs-ccxt/commit/119b4ba))
+* chore(deps-dev): bump typescript from 4.7.3 to 4.7.4 ([cb18ca7](https://github.com/fasenderos/nestjs-ccxt/commit/cb18ca7))
+* chore(deps): bump parse-url from 6.0.0 to 6.0.2 ([b2957b0](https://github.com/fasenderos/nestjs-ccxt/commit/b2957b0))
+* Delete tsconfig-release.json ([75ec402](https://github.com/fasenderos/nestjs-ccxt/commit/75ec402))
+* Update package.json ([7186677](https://github.com/fasenderos/nestjs-ccxt/commit/7186677))
+* Update tsconfig.json ([073a255](https://github.com/fasenderos/nestjs-ccxt/commit/073a255))
+
+
+
 ## <small>0.0.17 (2022-06-11)</small>
 
 * build: add tsconfig for production build ([70d2720](https://github.com/fasenderos/nestjs-ccxt/commit/70d2720))
