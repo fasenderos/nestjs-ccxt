@@ -19,7 +19,7 @@ jobs:
   build:
     working_directory: ~/nestjs-ccxt
     docker:
-      - image: cimg/node:16
+      - image: cimg/node:lts
     steps:
       - checkout
       - run:
@@ -40,7 +40,7 @@ jobs:
   test:
     working_directory: ~/nestjs-ccxt
     docker:
-      - image: cimg/node:16
+      - image: cimg/node:lts
     steps:
       - checkout
       - *restore-cache
