@@ -22,21 +22,14 @@ jobs:
       - image: cimg/node:lts
     steps:
       - checkout
-      - run:
-          name: Update NPM version
-          command: 'sudo npm install -g npm@latest'
-      - restore_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-      - run:
-          name: Install dependencies
-          command: npm ci
+      - *restore-cache
+      - *install-deps
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
-      - run:
-          name: Build
-          command: npm run build
+      - *build-packages
+
   test:
     working_directory: ~/nestjs-ccxt
     docker:
