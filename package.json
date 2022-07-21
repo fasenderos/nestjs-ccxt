@@ -41,7 +41,7 @@
     "@types/node": "18.0.6",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
-    "ccxt": "1.90.94",
+    "ccxt": "1.91.2",
     "conventional-changelog-cli": "2.2.2",
     "eslint": "8.20.0",
     "eslint-config-prettier": "8.5.0",
