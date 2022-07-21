@@ -1,3 +1,25 @@
+## <small>0.0.19 (2022-07-21)</small>
+
+* chore(deps-dev): bump @types/jest from 28.1.5 to 28.1.6 ([9112901](https://github.com/fasenderos/nestjs-ccxt/commit/9112901))
+* chore(deps-dev): bump @types/node from 18.0.4 to 18.0.6 ([1a82997](https://github.com/fasenderos/nestjs-ccxt/commit/1a82997))
+* chore(deps-dev): bump @typescript-eslint/eslint-plugin ([256f2a5](https://github.com/fasenderos/nestjs-ccxt/commit/256f2a5))
+* chore(deps-dev): bump @typescript-eslint/parser from 5.30.6 to 5.30.7 ([bcf7439](https://github.com/fasenderos/nestjs-ccxt/commit/bcf7439))
+* chore(deps-dev): bump ccxt from 1.90.85 to 1.90.86 ([02a4292](https://github.com/fasenderos/nestjs-ccxt/commit/02a4292))
+* chore(deps-dev): bump ccxt from 1.90.86 to 1.90.89 ([0e01a92](https://github.com/fasenderos/nestjs-ccxt/commit/0e01a92))
+* chore(deps-dev): bump ccxt from 1.90.89 to 1.90.94 ([a3f36d2](https://github.com/fasenderos/nestjs-ccxt/commit/a3f36d2))
+* chore(deps-dev): bump ccxt from 1.90.94 to 1.91.2 ([fc35316](https://github.com/fasenderos/nestjs-ccxt/commit/fc35316))
+* chore(deps-dev): bump eslint from 8.19.0 to 8.20.0 ([761ef30](https://github.com/fasenderos/nestjs-ccxt/commit/761ef30))
+* chore(deps-dev): bump release-it from 15.1.1 to 15.1.2 ([37944a3](https://github.com/fasenderos/nestjs-ccxt/commit/37944a3))
+* chore(deps-dev): bump release-it from 15.1.2 to 15.1.3 ([60202e4](https://github.com/fasenderos/nestjs-ccxt/commit/60202e4))
+* chore(deps-dev): bump ts-jest from 28.0.6 to 28.0.7 ([2b13987](https://github.com/fasenderos/nestjs-ccxt/commit/2b13987))
+* build: add depdendabot automer action ([258bf91](https://github.com/fasenderos/nestjs-ccxt/commit/258bf91))
+* build: fix codecov ([d336acf](https://github.com/fasenderos/nestjs-ccxt/commit/d336acf))
+* build: set circleci docker image node lts ([d7450fd](https://github.com/fasenderos/nestjs-ccxt/commit/d7450fd))
+* build: update circleci deprecated docker image ([77c07ee](https://github.com/fasenderos/nestjs-ccxt/commit/77c07ee))
+* style: eslintignore *.spec.ts ([3fb8d5f](https://github.com/fasenderos/nestjs-ccxt/commit/3fb8d5f))
+
+
+
 ## <small>0.0.18 (2022-07-13)</small>
 
 * style: format code ([523f69c](https://github.com/fasenderos/nestjs-ccxt/commit/523f69c))
