@@ -115,4 +115,4 @@ I would greatly appreciate any contributions to make this project better. Please
 
 ## License
 
-nestjs-ccxt is [MIT licensed](LICENSE).
+Copyright [Andrea Fassina](https://github.com/fasenderos), Licensed under [MIT](LICENSE).
