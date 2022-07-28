@@ -1,3 +1,18 @@
+## <small>0.0.20 (2022-07-28)</small>
+
+* docs: update read me license ([7378cfe](https://github.com/fasenderos/nestjs-ccxt/commit/7378cfe))
+* chore(deps-dev): bump @types/node from 18.0.6 to 18.6.1 ([b521c80](https://github.com/fasenderos/nestjs-ccxt/commit/b521c80))
+* chore(deps-dev): bump @typescript-eslint/eslint-plugin ([0a218b3](https://github.com/fasenderos/nestjs-ccxt/commit/0a218b3))
+* chore(deps-dev): bump @typescript-eslint/parser from 5.30.7 to 5.31.0 ([a5578e1](https://github.com/fasenderos/nestjs-ccxt/commit/a5578e1))
+* chore(deps-dev): bump ccxt from 1.91.15 to 1.91.22 ([f9fa95a](https://github.com/fasenderos/nestjs-ccxt/commit/f9fa95a))
+* chore(deps-dev): bump ccxt from 1.91.2 to 1.91.15 ([44ab144](https://github.com/fasenderos/nestjs-ccxt/commit/44ab144))
+* chore(deps-dev): bump ccxt from 1.91.22 to 1.91.29 ([41e3f32](https://github.com/fasenderos/nestjs-ccxt/commit/41e3f32))
+* chore(deps-dev): bump ccxt from 1.91.29 to 1.91.35 ([7596836](https://github.com/fasenderos/nestjs-ccxt/commit/7596836))
+* chore(deps-dev): bump release-it from 15.1.3 to 15.1.4 ([fcec8c8](https://github.com/fasenderos/nestjs-ccxt/commit/fcec8c8))
+* chore(deps-dev): bump release-it from 15.1.4 to 15.2.0 ([b61f5f2](https://github.com/fasenderos/nestjs-ccxt/commit/b61f5f2))
+
+
+
 ## <small>0.0.19 (2022-07-21)</small>
 
 * chore(deps-dev): bump @types/jest from 28.1.5 to 28.1.6 ([9112901](https://github.com/fasenderos/nestjs-ccxt/commit/9112901))
