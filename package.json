@@ -43,7 +43,7 @@
     "@typescript-eslint/parser": "5.31.0",
     "ccxt": "1.91.43",
     "conventional-changelog-cli": "2.2.2",
-    "eslint": "8.20.0",
+    "eslint": "8.21.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "husky": "8.0.1",
