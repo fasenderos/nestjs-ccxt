@@ -38,7 +38,7 @@
     "@nestjs/testing": "8.4.7",
     "@release-it/conventional-changelog": "5.1.0",
     "@types/jest": "28.1.7",
-    "@types/node": "18.7.9",
+    "@types/node": "18.7.11",
     "@typescript-eslint/eslint-plugin": "5.33.1",
     "@typescript-eslint/parser": "5.33.1",
     "ccxt": "1.92.53",
