@@ -59,7 +59,7 @@
   },
   "peerDependencies": {
     "@nestjs/common": "^7.0.0 || ^8.0.0",
-    "ccxt": "^1.80.1"
+    "ccxt": "^1.0.0 || ^2.0.0"
   },
   "jest": {
     "moduleFileExtensions": [
