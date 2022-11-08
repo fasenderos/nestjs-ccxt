@@ -39,7 +39,7 @@
     "@release-it/conventional-changelog": "5.1.1",
     "@types/jest": "28.1.8",
     "@types/node": "18.11.9",
-    "@typescript-eslint/eslint-plugin": "5.42.0",
+    "@typescript-eslint/eslint-plugin": "5.42.1",
     "@typescript-eslint/parser": "5.42.0",
     "ccxt": "2.1.24",
     "conventional-changelog-cli": "2.2.2",
