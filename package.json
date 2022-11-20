@@ -26,7 +26,10 @@
     "test:e2e": "jest --config ./tests/jest-e2e.json --runInBand",
     "test:e2e:dev": "jest --config ./tests/jest-e2e.json --runInBand --watch",
     "prerelease": "npm run build",
-    "release": "release-it"
+    "release": "release-it",
+    "release:major": "release-it major --ci",
+    "release:minor": "release-it minor --ci",
+    "release:patch": "release-it patch --ci"
   },
   "devDependencies": {
     "@commitlint/cli": "17.2.0",
