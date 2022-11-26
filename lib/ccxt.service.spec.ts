@@ -137,7 +137,7 @@ describe('CcxtService onModuleInit', () => {
   });
 
   it('should load multiple defualtExchanges', async () => {
-    const exchangeId = ['binance', 'ftx'];
+    const exchangeId = ['binance', 'kraken'];
     module = await Test.createTestingModule({
       providers: [
         CcxtService,
