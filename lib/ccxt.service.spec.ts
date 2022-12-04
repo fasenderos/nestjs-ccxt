@@ -44,7 +44,7 @@ describe('CcxtService', () => {
       'loadExchangeMarkets',
     );
 
-    const exchangeId = 'binance';
+    const exchangeId = 'bybit';
     const options: Partial<ccxt.Exchange> = { verbose: false };
     const client = await ccxtService.getClient(exchangeId, options);
 
@@ -92,7 +92,7 @@ describe('CcxtService onModuleInit', () => {
   });
 
   it('should load one defualtExchanges', async () => {
-    const exchangeId = 'binance';
+    const exchangeId = 'bybit';
     const ccxtOptions = {
       rateLimit: 10000,
     };
@@ -137,7 +137,7 @@ describe('CcxtService onModuleInit', () => {
   });
 
   it('should load multiple defualtExchanges', async () => {
-    const exchangeId = ['binance', 'kraken'];
+    const exchangeId = ['bybit', 'kraken'];
     module = await Test.createTestingModule({
       providers: [
         CcxtService,
